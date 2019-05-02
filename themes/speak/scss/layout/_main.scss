@@ -1,0 +1,528 @@
+// home
+//Bloque Servicios
+.services {
+    //.columns {
+    .service {
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
+        @media only screen and (max-width: 600px){
+            padding-right: .625rem;
+            padding-left: .625rem;
+        }
+        .titulo{
+            position: absolute;
+            padding: 5em 3em;
+            z-index: 1;
+            @media only screen and (max-width: 600px) {
+                padding: 4.3em 1.4em;
+            }
+            h3{
+                a{
+                    color: $white;
+                }
+            }
+            .tipo{
+                color: $white;
+                text-transform: uppercase;
+                display: block;
+                @media only screen and (max-width: 600px) 
+                {
+                    display: none;
+                } 
+            }
+        }
+        .imagen{
+            position: relative;
+            display: block; 
+        }
+        &:after{
+            position: absolute;
+            background: $primary-color;
+            opacity: 0;
+            content: "";
+            width: 100%;
+            height: 100%;
+            left: 0;
+            top: 0;
+            transition: all ease-in-out 0.3s;
+            @media only screen and (max-width: 600px){
+                padding-right: .625rem;
+                padding-left: .625rem;
+            }
+            }
+        &:hover{
+            &:after{
+            opacity: 0.7 !important; 
+            padding-right: .625rem;
+            padding-left: .625rem;
+            }
+        }
+        &:before{
+            position: absolute;
+            background-image: url(../images/arrow.png);
+            opacity: 0;
+            content: "";
+            width: 55px;
+            height: 38px;
+            left: 0em;
+            bottom: 3em;
+            transition: all ease-in-out 0.3s;
+            z-index: 1;
+        }
+        &:hover{
+            &:before{
+            opacity: 1 !important;
+            left: 3em;
+            @media only screen and (max-width: 600px) {
+                opacity: 0 !important;
+            }
+            }
+        }
+    }
+    
+    
+    
+}
+
+//CLientes home
+.container-clientes {
+    background-color: $medium-gray;
+    padding: 80px 0 20px 0;
+    margin-bottom: 60px;
+}
+
+//bloque reputacion home
+.block-reputacion{
+    .container{
+        padding: 70px 40px;
+        position: relative;
+        @media only screen and (max-width: 600px){
+            padding: 40px 40px 20px 40px;
+        }
+    }
+    .columns{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .gray{
+        position: relative;
+        background: $dark-gray;
+    }
+    .white-back {
+        position: relative;
+        &:before {
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 200%;
+            height: 100%;
+            content: "";
+            background: $white;
+            //margin-left: -100%; 
+        }
+    }
+    h2 {
+        position: relative;
+        color: $white;
+    }
+    .lead{
+        font-size: 1.9em;   
+        line-height: 38px;
+        margin-bottom: 14px;
+        @media only screen and (max-width: 600px){
+            font-size: 1.4em;
+            line-height: 28px;
+        }
+    }
+}
+//Blog home
+.fecha{
+    margin-bottom: 1em;
+}
+figure.blog{
+    margin-bottom: 1em;
+}
+.blog{
+    margin-bottom: 40px;
+}
+.path-frontpage{
+    #block-speak-content{
+        display: none;
+    }
+}
+
+
+//Internas
+#block-speak-page-title {
+    padding: 3em 1em;
+    @media only screen and (max-width: 600px){
+        padding: 2.4em 1em 1em 1em;
+    }
+}
+.field-name-field-lead{
+    text-align: center;
+    padding: 0px 3em 4em 3em;
+    @media only screen and (max-width: 600px){
+        padding: 0px 1em 2em 1em;
+    }
+    strong{
+        font-size: 1.5em;
+        line-height: 1.1em;
+        display: block;
+        margin-bottom: 0.8em;
+    }
+    p{
+        margin-bottom: 0;
+    }
+}
+.container-zona1{
+    background: $dark-gray;
+    padding: 3em 0;
+    color: $white;
+    h3{
+        color: $white;
+        font-size: 1.8em;
+        font-weight: 900;
+        position: relative;
+        margin-bottom: 1em;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 43px;
+            height: 8px;
+            background-image: url(../images/doth.png);
+            left: 0;
+            bottom: -20px;
+        }
+    }
+        li{
+            margin-bottom: 1em;
+        }
+
+    .field-name-body{
+        img{
+            padding: 2em 0;
+        }
+    }
+    .image{
+        margin-bottom: 0;
+        @media only screen and (max-width: 600px){
+            margin-bottom: 1em;
+        }
+    }
+}
+.container-zona2{
+    background: $primary-color;
+    padding: 4em 0;
+    h3{
+        font-size: 3em;
+        font-weight: 900;
+        @media only screen and (max-width: 600px){
+            font-size: 2em;
+            line-height: 1em;
+        }
+    }
+}
+.section-reputacion-corporativa{
+    .container-zona2{
+        background: $white !important;
+        padding: 4em 0;
+        .field-name-field-cuerpo-3{
+            img{
+                padding: 1em 0 0 0;
+            }
+        }
+        h3{
+            font-size: 1.8em;
+            font-weight: 900;
+            position: relative;
+            margin-bottom: 1em;
+            &:after{
+                position: absolute;
+                content: "";
+                width: 43px;
+                height: 8px;
+                background-image: url(../images/doth.png);
+                left: 0;
+                bottom: -20px;
+            }
+    }
+}
+}
+.container-zona3{
+    background: $medium-gray;
+    padding: 4em 0;
+    h3{
+        font-size: 1.8em;
+        font-weight: 900;
+        position: relative;
+        margin-bottom: 1em;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 43px;
+            height: 8px;
+            background-image: url(../images/doth.png);
+            left: 0;
+            bottom: -20px;
+        }
+}
+img{
+    padding: 2em 0;
+}
+}
+.section-speak{
+    .container-zona3{
+        display: none;
+    }
+}
+
+//Contacto
+.section-contacto{
+    #main {
+        padding: 3em 0;
+        @media only screen and (max-width: 600px){
+            padding: 1em 0;
+        }
+    }
+}
+#block-webform{
+    margin: 0;
+    @media only screen and (max-width: 600px){
+        margin: 2em 0;
+    }
+}
+#block-contactoinfo{
+    h3{
+        font-size: 1.8em;
+        font-weight: 500;
+    }
+}
+#block-mapaspeak{
+    p{
+        margin-bottom: 0;
+        margin-top: 2em;
+    }
+}
+
+//Equipo
+.team{
+    margin-bottom: 2em;
+    .columns{
+        padding: 0;
+        @media only screen and (max-width: 600px){
+            padding-right: .625rem;
+            padding-left: .625rem;
+        }
+    }
+    .views-field-title{
+        font-size: 1.5em;
+        font-weight: 600;
+        margin: 1em 0 2em 0;
+        letter-spacing: -1px;
+    }
+    .views-field-field-image{
+        position: relative;
+        a{
+            &:after{
+                position: absolute;
+                background: $primary-color;
+                opacity: 0;
+                content: "";
+                width: 100%;
+                height: 100%;
+                left: 0;
+                top: 0;
+                transition: all ease-in-out 0.3s;
+                }
+            &:hover{
+                &:after{
+                opacity: 0.7 !important;
+                }
+            }
+            &:before{
+                position: absolute;
+                background-image: url(../images/arrow.png);
+                opacity: 0;
+                content: "";
+                width: 55px;
+                height: 38px;
+                left: 0em;
+                bottom: 3em;
+                transition: all ease-in-out 0.3s;
+                z-index: 1;
+            }
+            &:hover{
+                &:before{
+                opacity: 1 !important;
+                left: 3em;
+                }
+            }
+        }
+    }
+    header {
+        text-align: center;
+        padding: 0 12em 3em 12em;
+        font-size: 1.2em;
+        @media only screen and (max-width: 600px){
+            padding: 1em;
+        }
+    }
+}
+//Blog
+.node--type-article{
+    margin-bottom: 2em;
+    .foundation-1col{
+        padding: 0 4em 2em 4em;
+        @media only screen and (max-width: 600px){
+            padding-right: .625rem;
+            padding-left: .625rem;
+        }
+    }
+    .field-name-field-image{
+        margin-bottom: 2em;
+    }
+}
+
+//Portafolio
+#block-quicktabsserviciostabs{
+    background: $primary-color;
+    padding: 120px 0 0 0;
+}
+ul.quicktabs-tabs{
+    li{
+        white-space: normal;
+        padding: 20px;
+        a{
+            position: relative;
+            background: $white;
+            width: 260px;
+            height: 140px;
+            color: $primary-color;
+            text-transform: uppercase;
+            display:inline-block;
+            padding: 2.3em 1.7em 1.7em 1.7em;
+            vertical-align: middle;
+            font-size: 1.2em;
+            font-weight: 500;
+            line-height: 1.3em;
+            &:after{
+                width: 0;
+                height: 0;
+                border-left: 130px solid transparent;
+                border-right: 130px solid transparent;
+                border-bottom: 60px solid $white;
+                content: "";
+                top: -60px;
+                left: 0;
+                position: absolute;
+            }
+            &:before{
+                width: 0;
+                height: 0;
+                border-left: 130px solid transparent;
+                border-right: 130px solid transparent;
+                border-top: 60px solid $white;
+                content: "";
+                bottom: -60px;
+                left: 0;
+                position: absolute;
+            }
+        }
+    }
+    li.active{
+        a{
+            background: $secondary-color; 
+            &:after{
+                border-bottom: 60px solid $secondary-color;
+            }
+            &:before{
+                border-top: 60px solid $secondary-color;
+            }
+        }
+    }
+}
+div#quicktabs-container-servicios {
+    background: $white;
+    margin-top: 120px;
+    padding-top: 3em;
+    .field-name-node-title{
+        position: relative;
+        margin-bottom: 2em;
+        &:after{
+            position: absolute;
+            content: "";
+            width: 43px;
+            height: 8px;
+            background-image: url(../images/doth.png);
+            left: 48%;
+            bottom: -20px;
+        }
+    }
+    table{
+        text-align: left;
+        td{
+            padding: 1.2em;
+        }
+    }
+    table thead th{
+        padding: .5rem .625rem .625rem;
+        font-weight: 600;
+        text-align: left;
+        background: $secondary-color;
+        color: $white;
+        font-size: 1.4em;
+    }
+    .row.texto {
+        text-align: left;
+        margin-top: 2em;
+        margin-bottom: 2em;
+    }
+}
+//Servicios movil
+.ui-accordion .ui-accordion-content {
+    padding: 1em 1em;
+}
+.ui-accordion-content{
+h2{
+    text-align: center;
+}
+table{
+    width: 100% !important;
+}
+}
+.ui-state-default{
+border: 0px;
+background: $secondary-color;
+a{
+    color: $white !important;
+}
+}
+.ui-state-active{
+    background: $primary-color;
+}
+.ui-dialog{
+    top: 100px !important;
+}
+.ui-widget-overlay {
+    background: #000000/*{bgColorOverlay}*/ /*{bgImgUrlOverlay}*/ /*{bgOverlayXPos}*/ /*{bgOverlayYPos}*/ /*{bgOverlayRepeat}*/;
+    opacity: .5/*{opacityOverlay}*/;
+    filter: Alpha(Opacity=30)/*{opacityFilterOverlay}*/;
+}
+.ui-widget-header {
+    border: 0px solid #dddddd/*{borderColorHeader}*/;
+    background: #ffffff/*{bgColorHeader}*/ /*{bgImgUrlHeader}*/ /*{bgHeaderXPos}*/ /*{bgHeaderYPos}*/ /*{bgHeaderRepeat}*/;
+    color: $secondary-color;/*{fcHeader}*/;
+    font-weight: 700;
+    font-size: 2em;
+    font-family: "Lato";
+    padding-right: 10px;
+    letter-spacing: -1px;
+}
+#drupal-modal{
+    body{
+        font-size: 1em;
+    font-family: "Lato";
+    }
+}

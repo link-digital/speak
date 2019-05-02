@@ -1,0 +1,73 @@
+.container-header {
+    background: $secondary-color;
+    padding: 32px 0;
+    .banner-speak{
+        padding: 14vw 3vw 26vw 3vw;
+        h1{
+            color: $white;
+            font-size: 7vw;
+        }
+    }
+}
+//Menu
+ul#superfish-main {
+    float: right;
+    z-index: 99;
+   li{
+        background: $secondary-color !important;
+        a{
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            &:hover{
+                background: $secondary-color !important;
+                color: $primary-color;
+            }
+        }
+        a.is-active{
+            background: $secondary-color !important;
+            color: $primary-color;
+        }
+    }
+    
+}
+.sf-accordion-toggle {
+    span{
+        display: none;
+    }
+}
+div.sf-accordion-toggle.sf-style-blue a {
+    background: $secondary-color !important;
+    color: #fff;
+    display: inline-block;
+    font-weight: 500 !important;
+    padding: 1em 3em 1em 1em;
+    position: relative;
+    float: right !important;
+    z-index: 2;
+    bottom: 34px;
+}
+ul.sf-menu.sf-style-blue li {
+    background: $secondary-color;
+}
+ul.sf-menu.sf-style-blue li:hover {
+    background: $secondary-color !important;
+    color: $primary-color !important;
+}
+ul.sf-menu.sf-style-blue a:hover{
+    background: $secondary-color !important;
+    color: $primary-color !important;
+}
+ul.sf-menu.sf-accordion.sf-expanded {
+    left: auto !important;
+    position: relative;
+    top: auto !important;
+    margin-bottom: 46px;
+}
+ul.sf-menu.sf-style-blue a.is-active{
+    background: $secondary-color !important;
+    color: $primary-color !important; 
+}
+ul.sf-menu.sf-style-blue a:focus{
+    background: $secondary-color !important;
+    color: $white !important;
+}

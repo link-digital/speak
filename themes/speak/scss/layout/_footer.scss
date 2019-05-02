@@ -1,0 +1,45 @@
+.container-footer{
+    background: $dark-gray;
+    padding: 100px 0 60px 0;
+
+    h2{
+        font-size: 1em;
+        text-transform: uppercase;
+        color: $white;
+        letter-spacing: 0;
+        font-weight: 600;
+        margin-bottom: 14px;
+    }
+    p{
+        font-size: 0.9em;
+        color: $gray;
+    }
+    a {
+        font-size: 0.9em;
+        color: $gray;
+        padding: 0;
+        &:hover{
+            color: $white;
+        }
+    }
+    ul {
+        margin-left: 0;
+        li{
+            padding: 0;
+            display: block;
+            margin-bottom: 1rem;
+            line-height: 1.6;
+            list-style: none;
+        }
+    }
+    .menu{
+        display: block;
+    }
+}
+
+.bottom-bar {
+    background: $dark-gray;
+    padding: 8px 0 14px 0;
+    color: $gray;
+    font-size: 0.9em;
+}

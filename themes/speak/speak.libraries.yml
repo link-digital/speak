@@ -1,0 +1,17 @@
+global:
+  version: VERSION
+  css:
+    base:
+      css/speak.css: {}
+  js:
+    js/speak.js: {}
+
+    fonts:
+
+  css:
+
+    theme:
+
+      '//fonts.googleapis.com/css?family=family=Lato:300,400,400i,700,900': { type: external, minified: true }
+
+  
