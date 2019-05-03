@@ -6,11 +6,9 @@ global:
   js:
     js/speak.js: {}
 
-lato:
-  version: VERSION
-  css:
-    component:
-      fonts/lato.css: {}
-      //fonts.googleapis.com/css?family=family=Lato:300,400,400i,700,900: {type: external, minified: true}
+fonts:
+ css:
+  theme:
+  //fonts.googleapis.com/css?family=Open+Sans:300,400,600,700: {type: external}
 
   
