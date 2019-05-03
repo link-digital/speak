@@ -11,6 +11,7 @@ screenshot: images/screenshot.jpg
 # need to add custom CSS or JS
 libraries:
  - speak/global
+ - speak/fonts
 
 # Regions are output in the page.html.twig
 
