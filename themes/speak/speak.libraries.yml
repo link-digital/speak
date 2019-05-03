@@ -9,6 +9,6 @@ global:
 fonts:
   css:
     theme:
-      'fonts.googleapis.com/css?family=Lato': { type: external, minified: true }
+      '//fonts.googleapis.com/css?family=Lato:300,400,400i,700,900': { type: external, minified: true }
 
   
