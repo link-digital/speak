@@ -6,8 +6,6 @@ global:
   js:
     js/speak.js: {}
 
-    fonts:
-
 Lato:
   version: VERSION
   css:
