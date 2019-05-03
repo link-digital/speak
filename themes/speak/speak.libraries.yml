@@ -6,7 +6,7 @@ global:
   js:
     js/speak.js: {}
 
-Lato:
+lato:
   version: VERSION
   css:
     component:
