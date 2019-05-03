@@ -8,10 +8,11 @@ global:
 
     fonts:
 
+Lato:
+  version: VERSION
   css:
-
-    theme:
-
-      '//fonts.googleapis.com/css?family=family=Lato:300,400,400i,700,900': { type: external, minified: true }
+    component:
+      fonts/lato.css: {}
+      //fonts.googleapis.com/css?family=family=Lato:300,400,400i,700,900: {type: external, minified: true}
 
   
