@@ -1,0 +1,70 @@
+.container-header .banner-speak h1 {
+	color: #fefefe;
+    font-size: 5vw;
+    letter-spacing: 0;
+}
+#block-views-block-clientes-block-1 .field-content{
+        text-align: center;
+}
+.node--type-equipo .field-name-field-image{
+    margin-bottom: 2rem;
+}
+.section-reputacion-corporativa .container-zona2 h3:after {
+    background-image: url(../images/doth.svg) !important;
+    width: 32px;
+    background-size: contain;
+}
+
+.container-zona3 h3:after {
+    background-image: url(../images/doth.svg) !important;
+    width: 32px;
+    background-size: contain;
+}
+div#quicktabs-container-servicios .field-name-node-title:after {
+    background-image: url(../images/doth.svg) !important;
+    width: 32px;
+    background-size: contain;
+}
+.h2-block-title h2:after {
+    background-image: url(../images/doth.svg) !important;
+    width: 32px;
+    background-size: contain;
+}
+section#block-callcrisis {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 50%;
+    background: #f1b348;
+    color: #ffffff;
+    padding: 0.8rem;
+} 
+.container-header {
+    position: relative;
+}
+
+@media only screen and (max-width: 600px)
+{
+    section#block-callcrisis {
+        width: 100%;
+        padding: 0.2rem 0.7rem;
+    } 
+}
+.btn {
+    display: inline-block;
+    margin-left: 1rem;
+    width: 26px;
+}
+.texto {
+    display: inline-block;
+}
+.texto a{
+    color: #ffffff;
+    font-size: 1.6rem;
+}
+@media only screen and (max-width: 600px){
+    .texto a{
+        color: #ffffff;
+        font-size: 1rem;
+    }
+}
