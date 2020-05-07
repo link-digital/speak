@@ -3,6 +3,7 @@ global:
   css:
     base:
       css/speak.css: {}
+      css/custom.css: {}
   js:
     js/speak.js: {}
 
