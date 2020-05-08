@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "9b05e023c89443e303a57402f7f1e211",
+    "content-hash": "e64d8398c963abb6a608286320ff0d0c",
     "packages": [
         {
             "name": "asm89/stack-cors",
@@ -637,62 +637,6 @@
                 "parser"
             ],
             "time": "2014-09-09T13:34:57+00:00"
-        },
-        {
-            "name": "drupal/views_infinite_scroll",
-            "version": "1.7.0",
-            "source": {
-                "type": "git",
-                "url": "https://git.drupalcode.org/project/views_infinite_scroll.git",
-                "reference": "8.x-1.7"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://ftp.drupal.org/files/projects/views_infinite_scroll-8.x-1.7.zip",
-                "reference": "8.x-1.7",
-                "shasum": "42ff1b7c835a2cb0755425999bb8251f19c62fac"
-            },
-            "require": {
-                "drupal/core": "^8.8 || ^9"
-            },
-            "type": "drupal-module",
-            "extra": {
-                "drupal": {
-                    "version": "8.x-1.7",
-                    "datestamp": "1584489857",
-                    "security-coverage": {
-                        "status": "covered",
-                        "message": "Covered by Drupal's security advisory policy"
-                    }
-                }
-            },
-            "notification-url": "https://packages.drupal.org/8/downloads",
-            "license": [
-                "GPL-2.0-or-later"
-            ],
-            "authors": [
-                {
-                    "name": "Bobík",
-                    "homepage": "https://www.drupal.org/user/123612"
-                },
-                {
-                    "name": "Neslee Canil Pinto",
-                    "homepage": "https://www.drupal.org/user/3580850"
-                },
-                {
-                    "name": "Remon",
-                    "homepage": "https://www.drupal.org/user/143827"
-                },
-                {
-                    "name": "Sam152",
-                    "homepage": "https://www.drupal.org/user/1485048"
-                }
-            ],
-            "description": "A pager which allows an infinite scroll effect for views.",
-            "homepage": "https://www.drupal.org/project/views_infinite_scroll",
-            "support": {
-                "source": "https://git.drupalcode.org/project/views_infinite_scroll"
-            }
         },
         {
             "name": "easyrdf/easyrdf",
@@ -3180,7 +3124,7 @@
             "version": "8.2.12",
             "source": {
                 "type": "git",
-                "url": "https://git.drupal.org/project/coder.git",
+                "url": "https://git.drupalcode.org/project/coder.git",
                 "reference": "984c54a7b1e8f27ff1c32348df69712afd86b17f"
             },
             "require": {
@@ -3482,12 +3426,12 @@
             "version": "v1.6.5",
             "source": {
                 "type": "git",
-                "url": "https://github.com/mikey179/vfsStream.git",
+                "url": "https://github.com/bovigo/vfsStream.git",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/mikey179/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
+                "url": "https://api.github.com/repos/bovigo/vfsStream/zipball/d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "reference": "d5fec95f541d4d71c4823bb5e30cf9b9e5b96145",
                 "shasum": ""
             },
